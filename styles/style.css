@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    font-family: "Manrope", sans-serif !important;
+}
+
+.orange {
+    color: #FF4240;
+}
+
+.main-carousel {
+    position: relative;
+}
+
+.carousel-txt-1 {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+}
+
+.carousel-txt-2 {
+    display: none;
+}
+
+.custom-border {
+    border-width: 1px;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+}
+
+.progress-card {
+    /* border: 1px solid black; */
+    text-align: center;
+    /* width: 250px; */
+}
+
+.progress-card>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.dash {
+    border-style: dashed;
+}
+
+.program {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    border-radius: 16px;
+    color: white;
+    position: relative;
+}
+
+.programs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.program-1 {
+    background-image: url('../Images/2.png');
+    width: 50%;
+    height: 340px;
+}
+
+.program-2 {
+    background-image: url('../Images/3.png');
+    width: 50%;
+    height: 340px;
+}
+
+.program-3 {
+    background-image: url('../Images/4.png');
+    height: 450px;
+}
+
+.first-row {
+    display: flex;
+    gap: 24px;
+}
+
+.program-detail {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.products-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid rgb(188, 186, 186);
+    border-radius: 8px;
+    padding: 10px;
+    width: 570px;
+}
+
+.left-img,
+.right-accordion {
+    width: 50%;
+}
+
+.get-touch-container {
+    display: flex;
+    gap: 24px;
+}
+
+.left-address-item {
+    /* border: 2px solid salmon; */
+    width: 375px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.left-add-item-1 {
+    background-color: rgb(188,
+            237,
+            109, 0.1) !important;
+}
+
+.left-add-item-2 {
+    background-color: rgb(253,
+            221,
+            95, 0.1) !important;
+}
+
+.left-add-item-3 {
+    background-color: rgb(98,
+            156,
+            243, 0.1) !important;
+}
+
+.form-control {
+    padding: 15px !important;
+    width: 320px !important;
+}
+
+#exampleFormControlTextarea1 {
+    width: 100% !important;
+}
+
+.inner-media {
+    background-color: rgb(19, 19, 24, 0.1);
+}
+
+.social-img:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #131318;
+}
+
+.footer-title {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links>li:hover {
+    cursor: pointer;
+}

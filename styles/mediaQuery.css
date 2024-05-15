@@ -1,0 +1,40 @@
+@media screen and (max-width: 576px) {
+    .carousel-txt-1 {
+        display: none;
+    }
+
+    .carousel-txt-2 {
+        display: block;
+        width: 100%;
+    }
+
+    .justify {
+        text-align: justify;
+    }
+
+    .first-row {
+        flex-direction: column;
+    }
+
+    .program {
+        width: 100%;
+        height: auto;
+    }
+
+    .program-detail {
+        position: static;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    .left-img,
+    .right-accordion {
+        width: 100%;
+    }
+
+    .form-control {
+        width: 100% !important;
+    }
+}
